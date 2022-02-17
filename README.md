@@ -2,6 +2,8 @@
 
 ### A stack based language made in C++
 
+## Example: 
+
 ```
 push 35 -- adds 35 
 push 34 -- adds 34
