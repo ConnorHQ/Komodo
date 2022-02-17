@@ -19,6 +19,8 @@ stack_T::stack_T(std::vector<stack_T::OP> op) {
             dump_all();
         } else if(op[i] == stack_T::OP_POP_ALL) {
             pop_all();
+        } else {
+            error("Unknown Operand!");
         }
     }
 }

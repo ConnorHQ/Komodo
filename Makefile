@@ -1,2 +1,2 @@
 all:
-	clang++ -o main.exe $(wildcard src/*.cpp) -Iinclude
+	clang++ -o build/main.exe $(wildcard src/*.cpp) -Iinclude
