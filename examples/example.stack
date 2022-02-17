@@ -1,0 +1,27 @@
+plus 35
+plus 34
+
+
+
+dump
+
+pop_all
+
+dump
+
+--
+    69
+
+    nothing in stack
+--
+
+--
+    custom operands
+
+--
+
+macro http!
+
+http_servsocket socket
+
+http_send "hi"
