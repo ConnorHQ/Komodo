@@ -1,6 +1,10 @@
 # Komodo
 
-### A stack based language made in C++
+### A stack based language made in C++.
+### Komodo is a high level stack based language like forth
+### Currently in development
+
+### Forth: https://en.wikipedia.org/wiki/Forth_(programming_language)
 
 ## Example: 
 
