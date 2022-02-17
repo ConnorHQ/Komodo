@@ -2,11 +2,11 @@
 
 ### A stack based language made in C++.
 ### Komodo is a high level stack based language like forth
-### Currently in development
+### Currently in development and can only be used as a C++ vector of stack Operands that will be sent to the constructor of stack_T
 
 ### Forth: https://en.wikipedia.org/wiki/Forth_(programming_language)
 
-## Example: 
+## Future Example: 
 
 ```
 push 35 -- adds 35 
