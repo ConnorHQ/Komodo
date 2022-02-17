@@ -9,10 +9,10 @@ pop_all
 
 dump
 
---
+-- console
     69
 
-    nothing in stack
+    ERROR: nothing in stack!
 --
 
 --
