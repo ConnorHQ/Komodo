@@ -10,7 +10,7 @@
 
 <p>&nbsp;</p>
 
-## Future Example: 
+## Example: 
 
 ```cpp
     #include <vector>
