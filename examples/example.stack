@@ -22,6 +22,25 @@ dump
 
 macro http!
 
-http_servsocket socket
+http_servsocket https://unclejoeshotdogplace.uk
 
 http_send "hi"
+
+http_send_as_HTML "
+    <!DOCTYPE html>
+    <html>
+    <body>
+
+    <h1>Uncle Joes Hotdog Place</h1>
+
+    <p title=Uncle Joes Hotdogs>
+    cheese hotdog
+    </p>
+
+    <p><b>
+    special hotdog
+    </b></p>
+
+    </body>
+    </html>
+"
