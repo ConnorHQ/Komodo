@@ -1,5 +1,9 @@
 #include <stdio.h>
+
+#include <iostream>
+#include <variant>
 #include <vector>
+
 
 #include "error.hpp"
 #include "stack.hpp"
@@ -52,6 +56,7 @@ stack_T::OP stack_T::dump_all() {
         printf("%s", this->stack[i]);
     }
     return (stack_T::OP_DUMP_ALL);
+
 }
 
 stack_T::OP stack_T::pop_all() {
